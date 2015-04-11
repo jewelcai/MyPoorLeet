@@ -1,0 +1,2 @@
+# MyPoorLeet
+journey to leetcode 
