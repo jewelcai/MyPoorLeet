@@ -4,7 +4,7 @@ public class Problem15 {
 public List<List<Integer>> threeSum(int[] num) {
     Arrays.sort(num);   
     List<List<Integer>> result = new ArrayList<List<Integer>>();
-    for (int i = 0; i < num.length-2; i++) {//length-2 放置越界  而且必须需要三个数
+    for (int i = 0; i < num.length-2; i++) {//length-2 防止越界  而且必须需要三个数
 	   if(i>0&&num[i]!=num[i-1]||i==0)
 	   {
 		   int target=-num[i];
